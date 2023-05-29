@@ -1,5 +1,5 @@
 # config valid for current version and patch releases of Capistrano
-lock "~> 3.17.3"
+lock "~> 3.10"
 
 set :application, "task_app"
 set :repo_url, "https://github.com/fgolfc/Unicorn_task_app.git"
