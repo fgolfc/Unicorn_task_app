@@ -1,7 +1,8 @@
 # config valid for current version and patch releases of Capistrano
+set :linked_files, %w{config/secrets.yml .env}
 lock "~> 3.10"
 
-set :linked_files, %w{config/secrets.yml .env}
+
 set :application, "task_app"
 set :repo_url, "https://github.com/fgolfc/Unicorn_task_app.git"
 set :linked_files, %w{config/secrets.yml}   # 4
